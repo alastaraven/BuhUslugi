@@ -1,44 +1,44 @@
 
-@import url("base/custom-reset.css");
+@import url("../base/custom-reset.css");
 /* Сброс дефолтных стилей */
 
-@import url("layout/_header.css");
+@import url(../"layout/_header.css");
 /* Стили шапки */
 
-@import url("layout/_footer.css");
+@import url("../layout/_footer.css");
 /* Стили подвала */
 
-@import url("layout/_popup.css");
+@import url("../layout/_popup.css");
 /* Стили popup */
 
-@import url("vars/colours.css");
+@import url("../vars/colours.css");
 /* Переменные цветовой палитры элементов */
 
-@import url("vars/text.css");
+@import url("../vars/text.css");
 /* Переменные текстов */
 
-@import url("compoments/_buttons.css");
+@import url("../compoments/_buttons.css");
 /* Стилизация кнопок */
 
-@import url("compoments/_inputs.css");
+@import url("../compoments/_inputs.css");
 /* Стилизация инпутов */
 
-@import url("blocks/hero.css");
+@import url("../blocks/hero.css");
 /* Стили первого экрана hero */
 
-@import url("blocks/services.css");
+@import url("../blocks/services.css");
 /* Стили второго экрана services */
 
-@import url("blocks/about.css");
+@import url("../blocks/about.css");
 /* Стили третьего экрана about */
 
-@import url("blocks/clients.css");
+@import url("../blocks/clients.css");
 /* Стили четвертого экрана clients */
 
-@import url("blocks/reviews.css");
+@import url("../blocks/reviews.css");
 /* Стили пятого экрана reviews */
 
-@import url("blocks/contacts.css");
+@import url("../blocks/contacts.css");
 /* Стили шестого экрана contacts */
 
 /* Основные стили */
