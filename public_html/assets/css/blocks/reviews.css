@@ -1,0 +1,48 @@
+
+.reviews {
+	margin-top: 140px;
+	margin-bottom: 200px;
+}
+.reviews__slider {
+margin-top: 80px;
+}
+.reviews__slide {
+	background-color: var(--gray-colour);
+	padding: 40px 80px;
+	display: flex; 
+	flex-direction: column;
+	gap: 60px;
+}
+.reviews__text {
+font-weight: 100;
+}
+.reviews__info {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+.__info-desc {
+display: flex;
+flex-direction: column;
+}
+.__info-title {
+	color: var(--dark-colour);
+	font-weight: 900;
+}
+.__info-subtitle {
+	font-size: var(--small-text-size);
+}
+
+/* Переопределение стилей для устройств меньше 768px */
+@media screen and (max-width: 768px) {
+	.reviews__slider {
+    margin-top: 120px;
+}
+	.reviews__slide {
+		background-color: var(--gray-colour);
+		padding: 20px;
+		height: auto;
+		flex-direction: column-reverse;
+		gap: 30px;
+	}
+}

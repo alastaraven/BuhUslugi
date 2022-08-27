@@ -1,0 +1,89 @@
+.about {
+	margin: 140px 0;
+}
+.about__container {
+	display: flex;
+	gap: 125px;
+}
+.about__col {
+	flex: auto;
+}
+.about__flex {
+	display: flex;
+	gap: 30px;
+	padding-top: 30px;
+}
+.__flex-item {
+	width: 255px;
+	height: 255px;
+	padding: 40px;
+	background-color: var(--gray-colour);
+	transition: 0.5s ease-in;
+}
+.__flex-num {
+	font-size: var(--large-text-size);
+	font-weight: 900;
+	letter-spacing: 1px;
+	color: var(--dark-colour);
+	transition: 0.5s ease-in;
+}
+.__flex-text {
+	padding-top: 30px;
+	padding-bottom: 47px;
+	font-size: var(--small-text-size);
+	font-weight: bold;
+	line-height: 132%;
+	}
+.__flex-action {
+	font-size: var(--small-text-size);
+	color: var(--accent-colour);
+	font-weight: bold;
+	text-decoration: underline;
+	transition: 0.5s ease-in;
+}
+.__flex-item:hover {
+	background-color: var(--accent-colour);
+	color: var(--light-colour);
+	transition: 0.5s ease-in;
+}
+.__flex-item:hover .__flex-action {
+	color: var(--light-colour);
+	transition: 0.5s ease-in;
+	}
+.__flex-item:hover .__flex-num {
+	color: var(--light-colour);
+	transition: 0.5s ease-in;
+	}
+.about__content {
+padding-top: 60px;
+font-weight: 100;
+}
+
+/* Переопределение стилей для устройств от 768px до 1440px  */
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+	.about__container {
+		gap: 30px;
+		flex-wrap: wrap;
+	}
+	.about__col {
+		flex: 50%;
+	}
+	.__flex-item {
+		width: 100%;
+	}
+}
+
+/* Переопределение стилей для устройств меньше 768px */
+@media screen and (max-width: 768px) {
+	.about__container {
+		flex-direction: column;
+		gap: 30px;
+	}
+	.about__flex {
+		flex-direction: column;
+	}
+	.__flex-item {
+		width: 100%;
+	}
+}
