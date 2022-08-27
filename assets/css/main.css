@@ -1,44 +1,44 @@
 
-@import url("../assets/base/custom-reset.css");
+@import url("../assets/css/base/custom-reset.css");
 /* Сброс дефолтных стилей */
 
-@import url(../assets/"layout/_header.css");
+@import url(../assets/css/"layout/_header.css");
 /* Стили шапки */
 
-@import url("../assets/layout/_footer.css");
+@import url("../assets/css/layout/_footer.css");
 /* Стили подвала */
 
-@import url("../assets/layout/_popup.css");
+@import url("../assets/css/layout/_popup.css");
 /* Стили popup */
 
-@import url("../assets/vars/colours.css");
+@import url("../assets/css/vars/colours.css");
 /* Переменные цветовой палитры элементов */
 
-@import url("../assets/vars/text.css");
+@import url("../assets/css/vars/text.css");
 /* Переменные текстов */
 
-@import url("../assets/compoments/_buttons.css");
+@import url("../assets/css/compoments/_buttons.css");
 /* Стилизация кнопок */
 
-@import url("../assets/compoments/_inputs.css");
+@import url("../assets/css/compoments/_inputs.css");
 /* Стилизация инпутов */
 
-@import url("../assets/blocks/hero.css");
+@import url("../assets/css/blocks/hero.css");
 /* Стили первого экрана hero */
 
-@import url("../assets/blocks/services.css");
+@import url("../assets/css/blocks/services.css");
 /* Стили второго экрана services */
 
-@import url("../assets/blocks/about.css");
+@import url("../assets/css/blocks/about.css");
 /* Стили третьего экрана about */
 
-@import url("../assets/blocks/clients.css");
+@import url("../assets/css/blocks/clients.css");
 /* Стили четвертого экрана clients */
 
-@import url("../assets/blocks/reviews.css");
+@import url("../assets/css/blocks/reviews.css");
 /* Стили пятого экрана reviews */
 
-@import url("../assets/blocks/contacts.css");
+@import url("../assets/css/blocks/contacts.css");
 /* Стили шестого экрана contacts */
 
 /* Основные стили */
