@@ -106,7 +106,7 @@
 }
 @keyframes grid-text {
 0%{transform:translateY(0)}
-100%{transform:translateY(-360px)}
+100%{transform:translateY(-260px)}
 }
 .about{margin:140px 0}
 .about__container{display:flex;gap:125px}
