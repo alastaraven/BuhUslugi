@@ -86,7 +86,7 @@
 .__grid-item:hover .__grid-text{transition:.5s ease-in;animation:grid-text .5s forwards}
 @keyframes grid-text {
 0%{transform:translateY(0)}
-100%{transform:translateY(-240px)}
+100%{transform:translateY(-260px)}
 }
 .__grid-show{display:none;color:var(--light-colour);position:absolute;left:20px;bottom:20px;opacity:0;padding:0 20px 0 0;transition:.5s ease-in}
 .__grid-item:hover .__grid-show{display:block;transition:.5s ease-in;animation:grid-show .5s forwards}
@@ -103,10 +103,9 @@
 .__grid-item{width:100%;min-height:200px;max-height:max-content;flex:0 0 220px;scroll-snap-align:start;scroll-snap-stop:always}
 .__grid-text{font-size:var(--h2-text-size);font-weight:900;color:var(--light-colour);position:absolute;left:20px;bottom:20px}
 .__grid-item:hover{height:480px}
-}
 @keyframes grid-text {
 0%{transform:translateY(0)}
-100%{transform:translateY(-260px)}
+100%{transform:translateY(-360px)}
 }
 .about{margin:140px 0}
 .about__container{display:flex;gap:125px}
