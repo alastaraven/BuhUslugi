@@ -104,8 +104,9 @@
 .__grid-text{font-size:var(--h2-text-size);font-weight:900;color:var(--light-colour);position:absolute;left:20px;bottom:20px}
 .__grid-item:hover{height:480px}
 @keyframes grid-text {
-0%{transform:translateY(0)}
-100%{transform:translateY(-360px)} }
+	0%{transform:translateY(0)}
+	100%{transform:translateY(-360px)}
+	}
 }
 .about{margin:140px 0}
 .about__container{display:flex;gap:125px}
